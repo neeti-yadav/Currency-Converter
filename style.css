@@ -44,8 +44,15 @@ form input{
     justify-content: space-between;
     align-items: center;
     margin: 2rem;
+  
 
 }
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
 
 
 .select-container img{
@@ -59,10 +66,15 @@ form input{
     justify-content: center;
     align-items: center;
     border-radius: 0.5rem;
-    border: 1px solid lightgray;
+    border: 1px solid rgb(183, 77, 77);
 }
 
-.dropdown i {
-    font-size: 1.5rem;
-    margin-top: 1rem;
+.msg{
+    margin: 2rem 0 2rem 0; 
+}
+
+form button {
+    height: 3rem;
+    background-color: #af4d98;
+
 }
