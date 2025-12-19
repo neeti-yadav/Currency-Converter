@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Currency Converter </title>
-    <link href="style.css" rel="stylesheet" />
+    <title>Currency Converter</title>
+
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -13,14 +14,17 @@
       referrerpolicy="no-referrer"
     />
   </head>
+
   <body>
     <div class="container">
       <h2>Currency Converter</h2>
+
       <form>
         <div class="amount">
           <p>Enter Amount</p>
-          <input value="1" type="text" />
+          <input type="number" value="1" min="1" />
         </div>
+
         <div class="dropdown">
           <div class="from">
             <p>From</p>
@@ -29,7 +33,9 @@
               <select name="from"></select>
             </div>
           </div>
+
           <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
           <div class="to">
             <p>To</p>
             <div class="select-container">
@@ -38,14 +44,14 @@
             </div>
           </div>
         </div>
-        <div class="msg">1USD = 80INR</div>
+
+        <div class="msg">Loading...</div>
         <button>Get Exchange Rate</button>
       </form>
     </div>
+
+    <!-- IMPORTANT: order matters -->
     <script src="codes.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
-
-
-
