@@ -75,6 +75,7 @@ btn.addEventListener("click", (evt) => {
   updateExchangeRate();
 });
 
+
 // Initial load
 window.addEventListener("load", () => {
   updateExchangeRate();
